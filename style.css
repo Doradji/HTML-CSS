@@ -1,0 +1,148 @@
+@import url(reset.css);
+body{font-family:'돋음';
+	background-color:#ffffff;}
+/*상단 GNB*/
+div.gnb{width:100%; height:36px;
+	background-color:#262424;}
+.gnb_content{width:978px; height:36px;
+	margin:0 auto;
+	position:relative;}
+.logo{position:absolute; top:8px; left:0px;} 
+div.login{width:181px; height:36px;
+	position:absolute; top:0 px; right:181px;}
+.login ul{float:left;}
+.login_left li{float:left;position:relative;top:7px;}
+.login_left li{left:0px; color:#8b8989;}
+.login_left li strong{display:inline-block;position:relative;padding-right:10px;font-size:12px; font-weight:bold; color:#8b8989;
+	margin-left:10px; background:url('img/더보기.jpg') no-repeat right center;}
+
+	/*.login_left li strong:after {content:'';position:absolute;top:7px;right:0;display:block;width:5px;height:4px;background:url('img/더보기.jpg') no-repeat 0 0;}*/
+.login_right{margin-top:6px;}
+.login_right li{float:left;}
+.login_right li{position:relative;font-size:12px; color:#8b8989;
+	margin-left:8px;padding-right:1px; padding-right:33px;}
+.login_right li:after{content:'';position:absolute;top:0;right:0;display:block;
+	background:url('img/웹툰앱.jpg') no-repeat right center;
+	width:24px; height:24px;}
+
+/*상단 Menu*/
+div.menu{width:100%; height:90px;
+	background-color:#ffffff;
+	border-bottom:1px solid #e5e5e5;}
+div.menu_content{width:978px; height:90px;
+	margin:0 auto;
+	position:relative;}
+.home img{position:absolute; top:30px; left:-1px;}
+ul.menu_list{width:251px; height:18px;
+	position:absolute; top:37px; left:361px;}
+.menu_list li{float:left;}
+.menu_list li+li{margin-left:60px;}
+ul.menu_sub{width:125px; height:35px;
+	position:absolute; top:27px; right:0px;}
+.menu_sub li{float:left;}
+.menu_sub li+li{margin-left:8px;}
+
+/*상단배너*/
+div.banner_top{width:100%; height:342px;
+	background-color:#f12a77;}
+.banner_top div{width:978px; height:342px; margin:0 auto;}
+
+/*요일 메뉴*/
+div.content{width:978px; margin:0 auto;}
+header.toon_menu{width:978px; height:110px;
+	position:relative;}
+div.category{width:76px;
+	position:absolute; top:53px; left:0px;}
+.category h3, .category img{float:left;}
+.category h3:first-child{color:#e83d3d; padding-bottom:4px; 
+	border-bottom:2px solid #e83d3d;
+	margin-right:8px;}
+.category h3:last-child{color:#666666;
+	margin-left:10px;}
+ul.day_menu{width:464px;height:60px;position:absolute;top:36px;right:257px;}
+.day_menu li{float:left;display:inline-block;height:100%;}
+.day_menu li+li{margin-left:16px;}
+.day_menu li img {vertical-align:bottom;}
+.day_menu li:last-child{align-self:center;}
+
+/*웹툰 부분*/
+article.webtoon{clear:both;}
+ul.toon_top{width:664px; clear:both;}
+.toon_top li{width:148px; height:152px;
+	float:left; 
+	margin-right:18px; margin-bottom:23px;}
+.toon_down li{width:148 px; height:152px;
+	float:left; 
+	margin-right:18px; margin-bottom:23px;}
+.toon_top li *, .toon_down li *{display:block; clear:both;}
+.toon_top li strong{color:#333333;}
+.toon_top li img{margin-bottom:11px;}
+.toon_top li span{color:#777777; margin-top:4px;}
+div.toon_ad{float:right; width:314px; height:328px;} 
+div.left{float:left;}
+
+ul.toon_down{clear:both; width:978px; height:328px;}
+.toon_down li:nth-child(6){margin-right:0px;}
+.toon_down li strong{color:#333333;}
+.toon_down li img{margin-bottom:11px;}
+.toon_down li span{color:#777777; margin-top:4px;}
+article.middle_banner img{clear:both;}
+
+/*랭킹*/
+section.ranking{width:978px; margin-top:40px; 
+	clear:both; overflow:hidden;}
+.ranking h4{margin-bottom:16px;}
+ul.ranking_left li * {display:block;}
+.ranking_left{width:314px; clear:both;}
+.ranking_left li img{float:left; margin-right:11px;}
+.ranking_left li{clear:both; overflow:hidden;}
+.ranking_left li+li{margin-top:8px;}
+.ranking_left li strong{font-size:14px; margin-top:10px;}
+.ranking_left li i{font-style:normal; color:#777; margin-top:10px;
+	margin-bottom:13px;}
+.ranking_left li span{margin-top:10px;}
+div.left_more{position:absolute; top:5px; left:193px;}
+div.rankingleft_box{float:left; position:relative;}
+div.rankingmiddle{float:left; margin-left:50px; position:relative;}
+ul.ranking_complete li *{display:block;}
+.ranking_complete li{clear:both; overflow:hidden;}
+.ranking_complete{width:314px; clear:both;}
+.ranking_complete li+li{margin-top:8px;}
+.ranking_complete li img{float:left; margin-right:11px;}
+.ranking_complete li strong{font-size:14px; margin-top:10px;}
+.ranking_complete li i{font-style:normal; color:#777; margin-top:10px;
+	margin-bottom:13px;}
+.ranking_complete li span{margin-top:10px;}
+div.complete_more{position:absolute; top:5px; left:193px;}
+div.ad{float:right; margin-left:50px;}
+.ad h3{margin-bottom:19px;}
+ul.ad_list li{border:1px solid #e2e2e2;}
+.ad_list li+li{margin-top:8px;}
+
+/*Notice*/
+section.notice{border-top:1px solid #e5e5e5; width:100%; clear:both; height:69px;}
+div.notice_wrap{width:978px; margin:0 auto; clear:both;}
+ul.notice_left li h3{font-size:14px; color:#e83d3d; margin-right:18px;}
+.notice_left li p{font-size:14px; margin-right:34px;}
+.notice_left li span{font-size:12px; color:#999;}
+.notice_left li{float:left;}
+ul.notice_left{margin-top:29px; padding-left:1px;}
+div.notice_right{float:right;}
+.notice_right span{margin-right:6px;}
+
+/*하단 배너*/
+section.banner1{width:100%; height:230px; background-color:#ffe47b;}
+.banner1 div{width:978px; margin:0 auto;}
+section.banner2{width:100%; height:230px; background-color:#a7d8ca;}
+.banner2 div{width:978px; margin:0 auto;}
+section.info{width:100%; height:249px; background-color:#262424;}
+.info div{width:978px; margin:0 auto;}
+ul.info_menu, .info p{color:#8b8989;}
+.info_menu li{display:inline; font-size:12px;}
+.info_menu li+li{margin-left:14px;}
+ul.info_img li{float:left;}
+.info_img li+li{margin-left:10px;}
+.info_img{width:346px; height:46px; 
+	position:relative; top:60px; left:316px;}
+ul.info_menu{position:absolute; top:88px; left:-105px; width:554px;}
+.info p{position:absolute; top:119px; left:114px; width:258px;}
