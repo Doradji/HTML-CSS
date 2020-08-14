@@ -1,0 +1,443 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>Daum Webtoon</title>
+<link href="style.css" rel="stylesheet" type="text/css">
+</head>
+
+<body>
+<header>
+	<div class="gnb">
+		<div class="gnb_content">
+			<div class="logo"> 
+				<a href="http://www.daum.net/?nil_profile=mini&nil_src=daum">
+					<img src="img/Daum.jpg" alt="Daum"/>
+				</a>
+			</div>
+
+			<div class="login">
+			 	<ul class="login_left">
+			 		<li>
+			 			<a href="http://login.daum.net/accounts/loginform.do?url=http%3A%2F%2Fwebtoon.daum.net%2F%23day%3Dthu%26tab%3Dday">
+							<img src="img/로그인.jpg" alt="로그인">
+			 			</a>
+			 		</li>
+			 		<li>
+			 			<strong>더보기</strong>
+			 		</li>
+			 	</ul>
+			 	<ul class="login_right">
+			 		<li>
+			 			<a href="http://search.daum.net/search?w=tot&DA=UME&t__nil_searchbox=suggest&sug=&sq=%EB%8B%A4%EC%9D%8C+%EC%9B%B9%ED%88%B0%EC%95%B1&o=2&q=%EB%8B%A4%EC%9D%8C+%EC%9B%B9%ED%88%B0%EC%95%B1">웹툰앱
+			 			</a>
+			 		</li>
+			 	</ul>
+			 </div>
+		</div>
+	</div>
+	<div class="menu">
+		<div class="menu_content">
+			<div class="home">
+				<a href="http://webtoon.daum.net/#day=thu&tab=day">
+					<img src="img/WEBTOON.jpg" alt="WEBTOON 홈">
+				</a>
+			</div>
+			<ul class="menu_list">
+				<li>
+					<a href="http://webtoon.daum.net/ranking" alt="랭킹">
+						<img src="img/랭킹.jpg" alt="랭킹">
+					</a>
+				</li>
+				<li>
+					<a href="http://webtoon.daum.net/league#level=major&sort=recent&genreId=all&pageNo=1" alt="웹툰리그">
+						<img src="img/웹툰리그.jpg" alt="웹툰리그"/>
+					</a>
+				</li>
+				<li>
+					<a href="http://login.daum.net/accounts/loginform.do?daumauth=1&url=http%3A%2F%2Fwebtoon.daum.net%2Fmy" alt="마이페이지">
+						<img src="img/마이페이지.jpg" alt="마이페이지"/> 
+					</a>
+				</li>
+			</ul>
+			<ul class="menu_sub">
+				<li>
+					<img src="img/최근본.jpg" alt="최근본">
+				</li>
+				<li>
+					<img src="img/검색.jpg" alt="검색">
+				</li>
+			</ul>
+		</div>
+	</div>
+	<div class="banner_top">
+		<div>
+			<a href="http://webtoon.daum.net/event/view/5161">
+				<img src="img/상단배너.jpg" alt="상단배너"/>
+			</a>
+		</div>
+	</div>
+</header>
+	
+<div class="content">
+	<section class="webtoon">
+		<header class="toon_menu">
+			<div class="category">
+				<h3>요일</h3>
+				<img src="img/점선.jpg" alt="땡땡" >
+				<h3>완결</h3>
+			</div>
+			<ul class="day_menu">
+				<li>
+					<img src="img/월.jpg" alt="월요일">
+				</li>
+				<li>
+					<img src="img/화.jpg" alt="화요일">
+				</li>
+				<li>
+					<img src="img/수.jpg" alt="수요일">
+				</li>
+				<li>
+					<img src="img/목.jpg" alt="목요일">
+				</li>
+				<li>
+					<img src="img/금.jpg" alt="금요일">
+				</li>
+				<li>
+					<img src="img/토.jpg" alt="토요일">
+				</li>
+				<li>
+					<img src="img/일.jpg" alt="일요일">
+				</li> 
+				<li>
+					<img src="img/신작1.jpg" alt="신작">
+				</li>
+			</ul>
+		</header>
+		<article class="webtoon">
+			<div class="left">
+				<ul class="toon_top">
+					<li>
+						<a href="http://webtoon.daum.net/webtoon/view/MyHome" alt="우리 집에 왜 왔니">
+						<img src="img/우리집.jpg" alt="우리 집에 왜 왔니">
+						<strong>우리 집에 왜 왔니</strong>
+						<span>이윤희</span>
+						</a>
+					</li>
+					<li>
+						<a href="http://webtoon.daum.net/webtoon/view/olddog" alt="올드독의 맛있는 제주일기">
+						<img src="img/올드독.jpg" alt="올드독의 맛있는 제주일기"/>
+						<strong>올드독의 맛있는 제주일기</strong>
+						<span>올드독</span>
+						</a>
+					</li>
+					<li>
+						<a href="http://webtoon.daum.net/webtoon/view/pocha" alt="쌍갑포차">
+						<img src="img/쌍갑포차.jpg" alt="쌍갑포차"/>
+						<strong>쌍갑포차</strong>
+						<span>배혜수</span>
+						</a>
+					</li>
+					<li>
+						<a href="http://webtoon.daum.net/webtoon/view/WeddingLottery" alt="결혼복권">
+						<img src="img/결혼복권.jpg" alt="결혼복권"/>
+						<strong>결혼복권</strong>
+						<span>설리안/다호</span>
+						</a>
+					</li>
+					<li>
+						<a href="http://webtoon.daum.net/webtoon/view/asurabalbalta" alt="아수라발발타">
+						<img src="img/아수라.jpg" alt="아수라발발타"/>
+						<strong>아수라발발타</strong>
+						<span>현마담</span>
+						</a>
+					</li>
+					<li>
+						<a href="http://webtoon.daum.net/webtoon/view/toyoyo" alt="얌얌숲 당근길 토요요">
+						<img src="img/당근길.jpg" alt="얌얌숲 당근길 토요요"/>
+						<strong>얌얌숲 당근길 토요요</strong>
+						<span>김민재</span>
+						</a>
+					</li>
+					<li>
+						<a href="http://webtoon.daum.net/webtoon/view/19_ppoppi" alt="19년 뽀삐">
+						<img src="img/19년.jpg" alt="19년 뽀삐"/>
+						<strong>19년 뽀삐</strong>
+						<span>마영신</span>
+						</a>
+					</li>
+					<li>
+						<a href="http://webtoon.daum.net/webtoon/view/bloodpack" alt="언더그라운드 블러드팩">
+						<img src="img/언더그라운드.jpg" alt="언더그라운드 블러드팩"/>
+						<strong>언더그라운드 블러드팩</strong>
+						<span>OZi</span>
+						</a>
+					</li>
+				</ul>
+			</div>
+
+			<div class="toon_ad">
+				<a href="http://webtoon.daum.net/webtoon/view/olddog">
+				<img src="img/올드독2.jpg" alt="신규 웹툰 올드독"/>
+				</a>
+			</div>
+
+			
+			<ul class="toon_down">
+				<li>
+					<a href="http://webtoon.daum.net/webtoon/view/LiveorNot" alt="살아말아">
+					<img src="img/살아말아.jpg" alt="살아말아"/>
+					<strong>살아말아</strong>
+					<span>고은</span>
+					</a>
+				</li>
+				<li>
+					<a href="http://webtoon.daum.net/webtoon/view/motherdaughter" alt="아 지갑놓고 나왔다">
+					<img src="img/지갑.jpg" alt="아 지갑놓고 나왔다"/>
+					<strong>아 지갑놓고 나왔다</strong>
+					<span>미역의효능</span>
+					</a>
+				</li>
+				<li>
+					<a href="http://webtoon.daum.net/webtoon/view/asphalt" alt="아스팔트 정원">
+					<img src="img/아스팔트.jpg" alt="아스팔트 정원"/>
+					<strong>아스팔트 정원</strong>
+					<span>이원진</span>
+					</a>
+				</li>
+				<li>
+					<a href="http://login.daum.net/accounts/loginform.do?daumauth=1&service=adult_service&url=http%3A%2F%2Fwebtoon.daum.net%2Fwebtoon%2Fview%2Fzeezii" alt="이게뭐야">
+					<img src="img/이게뭐야.jpg" alt="이게뭐야"/>
+					<strong>이게뭐야</strong>
+					<span>지지</span>
+					</a>
+				</li>
+				<li>
+					<a href="http://webtoon.daum.net/webtoon/view/streetstall" alt="노점 묵시록">
+					<img src="img/노점.jpg" alt="노점 묵시록"/>
+					<strong>노점 묵시록</strong>
+					<span>백봉</span>
+					</a>
+				</li>
+				<li>
+					<a href="http://webtoon.daum.net/webtoon/view/seventy" alt="70">
+					<img src="img/70.jpg" alt="70"/>
+					<strong>70</strong>
+					<span>김재희</span>
+					</a>
+				</li>
+				<li>
+					<a href="http://webtoon.daum.net/webtoon/view/petermon" alt="잉어왕">
+					<img src="img/잉어왕.jpg" alt="잉어왕">
+					<strong>잉어왕</strong>
+					<span>Peter Mon</span>
+					</a>
+				</li>
+				<li>
+					<a href="http://webtoon.daum.net/webtoon/view/mimelasplendens" alt="풍뎅이뎅이">
+					<img src="img/풍뎅이.jpg" alt="풍뎅이뎅이">
+					<strong>풍뎅이뎅이</strong>
+					<span>주니쿵</span>
+					</a>
+				</li>
+				<li>
+					<a href="http://webtoon.daum.net/webtoon/view/palehorse" alt="창백한 말">
+					<img src="img/창백한.jpg" alt="창백한 말">
+					<strong>창백한 말</strong>
+					<span>추혜연</span>
+					</a>
+				</li>  
+			</ul>
+		</article>
+		
+		<article class="middle_banner">
+			<img src="img/쓰레기.jpg" alt="돌아온 쓰레기 4인방"/>
+		</article>
+	</section>
+
+	<section class="ranking">
+		<div class="rankingleft_box">
+			<h4><img src="img/연재랭킹.jpg" alt="연재랭킹"></h4>
+			<ul class="ranking_left">
+				<li>
+					<a href="http://webtoon.daum.net/webtoon/view/heightofhim">
+						<img src="img/일진의크기.jpg" alt="일진의크기">
+					</a>
+					<span>학원, 드라마, 일진</span>
+					<strong>일진의 크기</strong>
+					<i>주명/윤필</i>
+				</li>
+				<li>
+					<a href="http://webtoon.daum.net/webtoon/view/verygood">
+						<img src="img/죽어도좋아.jpg" alt="죽어도좋아">
+					</a>
+					<span>드라마, 짝사랑</span>
+					<strong>죽어도 좋아♡</strong>
+					<i>골드키위새</i>
+				</li>
+				<li>
+					<a href="http://webtoon.daum.net/webtoon/view/murdercase">
+						<img src="img/월령관.jpg" alt="월령관 살인사건">
+					</a>
+					<span>드라마, 스릴러, 살인사건</span>
+					<strong>월령관 살인사건</strong>
+					<i>곡/마하로</i>
+				</li>
+				<li>
+					<a href="http://webtoon.daum.net/webtoon/view/girlsinsun">
+						<img src="img/소녀신선.jpg" alt="소녀신선">
+					</a>
+					<span>액션, 판타지, 설화</span>
+					<strong>소녀신선</strong>
+					<i>효미</i>
+				</li>
+				<li>
+					<a href="http://login.daum.net/accounts/loginform.do?daumauth=1&service=adult_service&url=http%3A%2F%2Fwebtoon.daum.net%2Fwebtoon%2Fview%2Fmynight">
+						<img src="img/나의밤.jpg" alt="나의 밤은 당신의 낮보다 아름답다">
+					</a>
+					<span>성인, 스릴러, 현실반영</span>
+					<strong>나의 밤은 당신의 낮보다 아름답..</strong>
+					<i>병수씨/한동우</i>
+				</li>
+			</ul>
+			<div class="left_more">
+				<span>더보기</span>
+				<img src="img/십자가.jpg" alt="더보기">
+			</div>
+		</div>
+
+		<div class="rankingmiddle">
+			<h4><img src="img/완결랭킹.jpg" alt="완결랭킹"></h4>
+			<ul class="ranking_complete">
+				<li>
+					<a href="">
+						<img src="img/웰컴투.jpg" alt="웰컴투고스트시티">
+					</a>
+					<span>판타지, 드라마, 괴담</span>
+					<strong>웰컴 투 고스트시티</strong>
+					<i>라떼/유들</i>
+				</li>
+				<li>
+					<a href="http://webtoon.daum.net/webtoon/view/goblin">
+						<img src="img/양말.jpg" alt="양말도깨비">
+					</a>
+					<span>판타지, 순정, 동화</span>
+					<strong>양말도깨비</strong>
+					<i>만물상</i>
+				</li>
+				<li>
+					<a href="http://webtoon.daum.net/search/total?q=%EA%B0%80%EB%A1%A0%ED%94%BC#page=1">
+						<img src="img/가론피.jpg" alt="가론피">
+					</a>
+					<span>공포, 괴담</span>
+					<strong>가론피</strong>
+					<i>P</i>
+				</li>
+				<li>
+					<a href="http://webtoon.daum.net/webtoon/view/joalarm">
+						<img src="img/좋아하면.jpg" alt="좋아하면울리는">
+					</a>
+					<span>순정, 연애</span>
+					<strong>좋아하면 울리는</strong>
+					<i>천계영</i>
+				</li>
+				<li>
+					<a href="http://webtoon.daum.net/webtoon/view/survivor">
+						<img src="img/생존인간.jpg" alt="생존인간">
+					</a>
+					<span>공포, 스릴러, 살인사건</span>
+					<strong>생존인간</strong>
+					<i>디디</i>
+				</li>
+			</ul>
+			<div class="complete_more">
+				<span>더보기</span>
+				<img src="img/십자가.jpg" alt="더보기">
+			</div>
+		</div>
+
+		<div class="ad">
+			<h3><img src="img/AD.jpg" alt=""></h3>
+			<ul class="ad_list">
+				<li>
+					<a href="">
+						<img src="img/버물리.jpg" alt="버물리광고">
+					</a>
+				</li>
+				<li>
+					<a href="http://bbs.cartoon.media.daum.net/gaia/do/opinion/list?bbsId=B005">
+						<img src="img/만화게시판.jpg" alt="만화게시판">
+					</a>
+				</li>
+				<li>
+					<a href="http://webtoon.daum.net/event#page_no=1&sort=ing">
+						<img src="img/이벤트.jpg" alt="이벤트">
+					</a>
+				</li>
+			</ul>
+		</div>
+	</section>
+</div>
+
+<section class="notice">
+	<div class="notice_wrap">
+		<ul class="notice_left">	
+			<li>
+				<a href="http://bbs.cartoon.media.daum.net/gaia/do/announce/list?bbsId=Notice"><h3>Notice</h3></a>
+			</li>
+			<li><p>Daum 프로필 이미지 비노출 안내</p></li>
+			<li>
+				<span>2016-07-05</span>
+			</li>
+		</ul>
+		<div class="notice_right">
+			<span>더보기</span>
+			<img src="img/십자가.jpg" alt="더보기">
+		</div>
+	</div>
+</section>
+
+<footer>
+	<section class="banner1">
+		<div>
+			<img src="img/오무라이스.jpg" alt="오무라이스잼잼">
+		</div>
+	</section>
+	<section class="banner2">
+		<div>
+			<img src="img/못안달.jpg" alt="못잡아먹어서안달">
+		</div>
+	</section>
+	<section class="info">
+		<div>
+			<ul class="info_img">
+				<li>
+					<a href="http://webtoon.daum.net/business">
+						<img src="img/사업제휴문의.jpg" alt="사업제휴문의">
+					</a>
+				</li>
+				<li>
+					<a href="http://search.daum.net/search?w=tot&DA=UME&t__nil_searchbox=suggest&sug=&sq=%EB%8B%A4%EC%9D%8C+%EC%9B%B9%ED%88%B0%EC%95%B1&o=2&q=%EB%8B%A4%EC%9D%8C+%EC%9B%B9%ED%88%B0%EC%95%B1">
+						<img src="img/앱다운로드.jpg" alt="앱다운로드">
+					</a>
+				</li>
+			
+				<ul class="info_menu">
+					<li>서비스 약관/정책</li> 
+					<li>&#58;</li>
+					<li>개인정보취급방침</li>
+					<li>&#58;</li>
+					<li>권리침해신고</li>
+					<li>&#58;</li>
+					<li>다음웹툰 고개센터</li>
+					<li>&#58;</li>
+					<li>유료서비스 약관</li>
+				</ul>
+				<p>Copyright &copy;<span>Kakao Corp.</span> All rights reserved.</p>
+			</ul>
+		</div>
+	</section>
+</footer>
+
+</body>
+</html>
