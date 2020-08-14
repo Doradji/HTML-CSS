@@ -1,0 +1,359 @@
+<style>
+/*reset.css*/
+body,div,dl,dt,dd,ul,ol,li,h1,h2,h3,h4,h5,h6,pre,code,form,fieldset,legend,textarea,p,blockquote,th,td,input,select,textarea,button {margin:0;padding:0}
+fieldset,img {border:0 none}
+dl,ul,ol,menu,li {list-style:none}
+blockquote, q {quotes: none}
+blockquote:before, blockquote:after,q:before, q:after {content:'';content:none}
+input,select,textarea,button {vertical-align:middle}
+button {border:0 none;background-color:transparent;cursor:pointer}
+body {background:#fff}
+body,th,td,input,select,textarea,button {font-size:12px;line-height:1.5;font-family:'돋움',dotum,sans-serif;color:#333} /* color값은 디자인가이드에 맞게사용 */
+a {color:#333;text-decoration:none}
+a:active, a:hover {text-decoration:underline}
+address,caption,cite,code,dfn,em,var {font-style:normal;font-weight:normal}
+
+/*style.css*/
+div.gnb {
+	width:100%; 
+	height:30px; 
+	border-bottom:1px solid #dfdfdf;
+	position:relative;
+}
+.gnb_left {
+	width:228px; 
+	height:20px; 
+	background-color:#1dc501; 
+	position:absolute;
+	top:5px; 
+	left:16px;
+}
+.gnb ul {width:142px; margin:0 auto;}
+.gnb ul li {
+	width:46px; 
+	height:30px; 
+	background-color:#2db400; 
+	float:left;
+	border-left:1px solid #d5d5d7;
+}
+.gnb ul li:last-child {border-right:1px solid #d5d5d7;}
+.gnb_right {
+	width:170px;
+	height:14px; 
+	background-color:#1dc501;
+	position:absolute;
+	top:9px; 
+	right:15px;
+}
+
+div.logo_wrap {
+	width:940px; 
+	height:125px;  
+	margin:0 auto;
+	position:relative;
+}
+.logo {
+	width:638px; 
+	height:49px; 
+	background-color:#2db400;
+	position:absolute;
+	top:28px;
+	left:120px;
+}
+.search {
+	width:407px; 
+	height:16px; 
+	background-color:#2db400;
+	position:absolute;
+	top:84px; 
+	right:205px;
+}
+
+div.wrap {
+	width:940px; 
+	margin:0 auto; 
+	margin-top:25px;
+	/*clear:both;*/
+	overflow:hidden;
+}
+div.menu {background-color:#22b600; height:38px; position:relative;}
+.menu_left {
+	width:672px; 
+	height:14px; 
+	background-color:#fcff00; 
+	position:absolute; 
+	top:13px; 
+	left:18px; 
+}
+.menu_right {
+	width:141px; 
+	height:20px; 
+	background-color:#fcff00; 
+	position:absolute; 
+	top:10px; 
+	right:23px;
+}
+
+/*new부분*/
+section.news {margin-top:3px; overflow:hidden;}
+article.news_left {width:635px; float:left;}
+div.ad {height:100px; background-color:#71646e; margin-bottom:5px;}
+.ad_bottom {height:32px; background-color:#f9f9f9; border:1px solid #e6e6e6; margin-bottom:5px;}
+.ul_top {height:40px; border:1px solid #d6d6d6; border-bottom:1px solid #e7e7e7;}
+.news_left ul {
+	height:185px; 
+	border-left:1px solid #d6d6d6;
+	border-right:1px solid #d6d6d6; 
+}
+.news_left ul > li {
+	width:104px; 
+	height:91px; 
+	border-right:1px solid #f4f4f4;
+	border-bottom:1px solid #f4f4f4;
+	float:left;
+}
+.news_left ul > li:nth-child(6) {border-right:none;}
+.news_left ul > li:nth-child(12) {border-right:none;}
+div.ul_bottom {height:38px; border:1px solid #d6d6d6; margin-top:-1px;}
+
+article.news_right {width:300px; float:left; margin-left:5px;}
+div.login {
+	border:1px solid #dcdcdc; 
+	height:105px; 
+	background-color:#f8f8f8;
+	border-bottom:1px solid #e6e6e6;
+}
+.news_right ul {
+	border:1px solid #dcdcdc;
+	padding:0 12px;
+	height:151px;
+	margin-top:-1px;
+}
+.news_right ul li {height:73px; border-bottom:1px solid #e3e3e3;}
+.news_right ul li:last-child {height:77px; border-bottom:none;}
+div.red {margin-top:2px; height:150px; background-color:#f22720;}
+
+section.content_list {
+	margin-top:5px; 
+	overflow:hidden;
+	margin-bottom:17px;
+}
+article.content_left {
+	width:635px;
+	float:left; 
+}
+div.list_menu {height:45px; border:1px solid #d6d6d6; background-color:#f3f3f5;}
+ul.list {
+	height:665px;
+	border-right:1px solid #d6d6d6; 
+	padding-top:22px;
+	padding-left:21px;
+	border-left:1px solid #d6d6d6;
+}
+ul.list li {
+	width:138px; 
+	height:149px; 
+	background-color:#9ca3a9;
+	float:left;
+	margin-right:13px;
+	margin-bottom:13px;
+}
+ul.list li:first-child {width:289px;}
+div.list_bottom {
+	border:1px solid #d6d6d6; 
+	border-top:1px solid #eaeaea; 
+	height:44px; 
+	clear:both; 
+	/*margin-top:30px;*/}
+article.content_right {
+	width:305px;  
+/*	margin-left:-1px;*/
+	float:left;
+}
+div.right_menu {height:45px; border:1px solid #d6d6d6; background-color:#f3f3f4; border-left:none;}
+div.right_wrap {border:1px solid #d6d6d6; padding-left:13px; border-top:0px; border-left:none;}
+.blank {height:58px; border-bottom:1px solid #eaeaea; margin-right:16px;}
+.green {height:29px; margin-right:16px; margin-bottom:7px; position:relative;}
+div.green > div {
+	width:80px; 
+	height:21px; 
+	background-color:#39ba05; 
+	position:absolute;
+	top:8px; right:5px;
+}
+ul.right_top li {
+	width:92px;
+	height:99px;
+	background-color:#9ca3a9;
+	margin-right:1px; 
+	margin-bottom:4px;
+	float:left;
+}
+ul.right_top {height:305px; margin-bottom:25px;}
+ul.right_bottom li {height:98px; margin-right:13px;}
+.right_bottom {margin-bottom:13px;}
+.right_bottom li:first-child {background-color:#b1dcdc;}
+.right_bottom li:nth-child(2) {background-color:#b09ce4;}
+.right_bottom li:last-child {background-color:#a3acb6;}
+
+section.ad {
+	height:100px;  
+	margin-top:17px;
+	clear:both;
+	margin-bottom:17px;
+}
+.ad > ul > li {float:left;}
+.ad > ul > li:first-child {width:317px; height:84px; background-color:#93ab79; margin-top:8px;}
+.ad > ul > li:nth-child(2) {width:317px; height:84px; background-color:#03b07a; margin-top:8px; margin-right:1px;}
+.ad > ul > li:last-child {width:305px; height:100px; background-color:#11161c;}
+
+footer {border-top:2px solid #3f3f3f; border-bottom:1px solid #ebebeb; position:relative;}
+footer > div {height:34px; background-color:#fafafa;}
+div.left {
+	width:246px; 
+	height:14px; 
+	background-color:#616190; 
+	position:absolute;
+	top:11px;
+	left:15px;
+}
+div.right {
+	width:98px; 
+	height:14px; 
+	background-color:#616190;
+	position:absolute;
+	top:11px;
+	right:208px;
+}
+div.last {height:67px; position:relative;}
+div.last > div {
+	width:749px; 
+	height:14px; 
+	background-color:#616190;
+	position:relative;
+	top:22px;
+	left:85px;
+}
+</style>
+
+<div class="gnb">
+			<div class="gnb_left"></div>
+			<ul>
+				<li>
+				</li><li>
+				</li><li>
+			</li></ul>
+			<div class="gnb_right"></div>
+		</div>
+		<div class="logo_wrap">
+			<div class="logo"></div>
+			<div class="search"></div>
+		</div>
+	</header>		
+	
+	<div class="wrap">
+		<div class="menu">
+			<div class="menu_left"></div>
+			<div class="menu_right"></div>
+		</div>
+		
+		<section class="news">
+			<article class="news_left">
+				<div class="ad"></div>
+				<div class="ad_bottom"></div>
+
+				<div class="ul_top"></div>
+				<ul>
+					<li>
+					</li><li>
+					</li><li>
+					</li><li>
+					</li><li>
+					</li><li>
+					</li><li>
+					</li><li>
+					</li><li>
+					</li><li>
+					</li><li>
+					</li><li>
+				</li></ul>
+				<div class="ul_bottom"></div>
+			</article>
+			<article class="news_right">
+				<div class="login"></div>
+				<ul>
+					<li>
+					</li><li>
+				</li></ul>
+				<div class="red"></div>
+			</article>
+		</section>
+
+		<section class="content_list">
+			<article class="content_left">
+				<div class="list_menu"></div>
+				<ul class="list">
+					<li>
+					</li><li>
+					</li><li>
+					</li><li>
+					</li><li>
+					</li><li>
+					</li><li>
+					</li><li>
+					</li><li>
+					</li><li>
+					</li><li>
+					</li><li>
+					</li><li>
+					</li><li>
+					</li><li>
+				</li></ul>
+				<div class="list_bottom"></div>
+			</article>
+			
+			<article class="content_right">
+				<div class="right_menu"></div>
+				<div class="right_wrap">
+					<div class="blank"></div>
+					<div class="green">
+						<div></div>
+					</div>
+					<ul class="right_top">
+						<li>
+						</li><li>
+						</li><li>
+						</li><li>
+						</li><li>
+						</li><li>
+						</li><li>
+						</li><li>
+						</li><li>
+					</li></ul>
+					<ul class="right_bottom">
+						<li>
+						</li><li>
+						</li><li>
+					</li></ul>
+				</div>
+			
+		</article></section>
+		<section class="ad">
+			<ul>
+				<li>
+				</li><li>
+				</li><li>
+			</li></ul>
+		</section>
+		<footer>
+			<div>
+				<div class="left"></div>
+				<div class="right"></div>
+			</div>
+		</footer>
+		<div class="last">
+			<div></div>
+		</div>
+	</div>
+</pre>
+
